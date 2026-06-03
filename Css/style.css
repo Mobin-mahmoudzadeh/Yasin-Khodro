@@ -1,0 +1,315 @@
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css");
+/* Universal styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+  box-sizing: border-box;
+  font-family: Vazirmatn, sans-serif;
+}
+
+/* Color and font variables */
+
+:root {
+  --main-color: #fa7104;
+  --second-color: #e05404;
+  --text-color: #060414;
+  --container-color: #efe8e0;
+  --bg-color: #f7f7f7;
+  --text-alter-color: #818181;
+}
+
+/*=============== UNIVERSAL STYLES ===============*/
+
+/* === * === */
+
+
+/*=============== COLOR AND FONT VARIABLES ===============*/
+
+/* === :root === */
+
+
+/*=============== SCROLLBAR ===============*/
+
+/* === html::-webkit-scrollbar === */
+
+/* === html::-webkit-scrollbar-thumb === */
+
+
+/*=============== BODY STYLES ===============*/
+
+/* === body === */
+
+/* === .content === */
+
+/* === a === */
+
+/* === img === */
+
+/* === section === */
+
+/* === .container === */
+
+
+/*=============== HEADER STYLE ===============*/
+
+/* === header === */
+
+/* === .nav === */
+
+/* === .logo === */
+
+/* === .logo span === */
+
+/* === .navbar === */
+
+/* === .nav-link, .nav-link:hover === */
+
+/* === .nav-icons === */
+
+/* === .nav-icons .bx === */
+
+/* === .nav-icons .user-icon, .nav-icons .user-icon:hover === */
+
+
+/*=============== MENU-ICON ===============*/
+
+/* === .menu-icon === */
+
+/* === .menu-icon div === */
+
+/* === .move .line1 === */
+
+/* === .move .line2 === */
+
+/* === .move .line3 === */
+
+
+/*=============== HOME STYLE ===============*/
+
+/* === .home === */
+
+/* === .home-content === */
+
+/* === .home-img === */
+
+/* === .home-img img === */
+
+/* === .home-img::before === */
+
+/* === @keyframes FromRight === */
+
+/* === .input-form === */
+
+/* === .input-box === */
+
+/* === .input-box span === */
+
+/* === .input-box input === */
+
+/* === .input-border === */
+
+/* === .search-btn, .search-btn:hover === */
+
+
+/*=============== TRENDING STYLE ===============*/
+
+/* === .heading === */
+
+/* === .heading h2 === */
+
+/* === .trending-content === */
+
+/* === .trend-box, .trend-box:hover === */
+
+/* === .trend-box h4, .trend-box:hover h4 === */
+
+/* === .trend-box img === */
+
+/* === .trend-box h3 === */
+
+/* === .trend-box p === */
+
+
+/*=============== RENTALS STYLE ===============*/
+
+/* === .rentals .heading === */
+
+/* === .heading p === */
+
+/* === .rentals-content === */
+
+/* === .rental-box, .rental-box:hover === */
+
+/* === .rental-top === */
+
+/* === .rental-top h3 === */
+
+/* === .rental-top .bx, .rental-top .bx:hover === */
+
+/* === .rental-box img === */
+
+/* === .rental-box h2 === */
+
+/* === .rental-box h4 === */
+
+/* === .price-btn === */
+
+/* === .price-btn p === */
+
+/* === .price-btn p span === */
+
+/* === .rental-btn, .rental-btn:hover === */
+
+
+/*=============== TEAM STYLE ===============*/
+
+/* === .team-content === */
+
+/* === .team-box img === */
+
+/* === .team-box h2 === */
+
+/* === .team-box span === */
+
+/* === .team-box p === */
+
+
+/*=============== REVIEWS STYLE ===============*/
+
+/* === .reviews-content === */
+
+/* === .t-box === */
+
+/* === .t-box .stars === */
+
+/* === .t-box p === */
+
+/* === .profile === */
+
+/* === .profile img === */
+
+/* === .profile-data h3 === */
+
+/* === .profile-data span === */
+
+
+/*=============== NEWSLETTER STYLE ===============*/
+
+/* === .newsletter === */
+
+/* === .newsletter h2 === */
+
+/* === .newsletter p === */
+
+/* === .newsletter form === */
+
+/* === .newsletter form input === */
+
+/* === .newsletter form .email === */
+
+/* === .newsletter form input::placeholder === */
+
+/* === .newsletter form .s-btn, .newsletter form .s-btn:hover === */
+
+
+/*=============== FOOTER STYLE ===============*/
+
+/* === .footer === */
+
+/* === .footer-content === */
+
+/* === .footer-box === */
+
+/* === .social === */
+
+/* === .social a .bx, .social a .bx:hover === */
+
+/* === .footer-box h3 === */
+
+/* === .footer-box p === */
+
+/* === .footer-box p span === */
+
+/* === .footer-box a === */
+
+/* === .copyright === */
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+
+/* === @media (max-width: 1080px) === */
+
+/* === .container === */
+
+
+/* For medium devices */
+
+/* === @media (max-width: 970px) === */
+
+/* === section === */
+
+/* === .home-img::before === */
+
+
+/* === @media (max-width: 880px) === */
+
+/* === .nav === */
+
+/* === .logo === */
+
+/* === .home === */
+
+/* === .home-img::before === */
+
+/* === .footer-content === */
+
+
+/* For small devices */
+
+/* === @media (max-width: 620px) === */
+
+/* === header === */
+
+/* === .nav-icons .bx === */
+
+/* === .menu-icon === */
+
+/* === .navbar === */
+
+/* === .nav-link === */
+
+/* === .open-menu === */
+
+/* === .home === */
+
+/* === .home-img::before === */
+
+/* === .newsletter h2 === */
+
+/* === .newsletter p === */
+
+
+/* === @media (max-width: 477px) === */
+
+/* === .home-img === */
+
+/* === .home-img::before === */
+
+/* === .input-form === */
+
+/* === .input-box === */
+
+/* === .input-border === */
+
+/* === .heading h2 === */
+
+/* === .reviews-content, .footer-content === */
+
+
+/* === @media (max-width: 380px) === */
+
+/* === .home-img::before === */ 
