@@ -51,7 +51,9 @@ body{
   background: var(--bg-color);
 }
 /* === .content === */
-
+.content{
+  overflow: hidden;
+}
 /* === a === */
 
 /* === img === */
