@@ -84,7 +84,14 @@ header{
   z-index: 100;
 }
 /* === .nav === */
-
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--text-color);
+  padding: 17px 20px;
+  border-radius: 0.8rem;
+}
 /* === .logo === */
 
 /* === .logo span === */
