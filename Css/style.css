@@ -55,9 +55,13 @@ body{
   overflow: hidden;
 }
 /* === a === */
-
+a{
+  text-decoration: none;
+}
 /* === img === */
-
+img{
+  width: 100%;
+}
 /* === section === */
 
 /* === .container === */
