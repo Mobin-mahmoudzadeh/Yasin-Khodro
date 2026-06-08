@@ -46,7 +46,10 @@ html::-webkit-scrollbar-thumb{
 /*=============== BODY STYLES ===============*/
 
 /* === body === */
-
+body{
+  color: var(--text-color);
+  background: var(--bg-color);
+}
 /* === .content === */
 
 /* === a === */
