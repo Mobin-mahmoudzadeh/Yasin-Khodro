@@ -93,9 +93,15 @@ header{
   border-radius: 0.8rem;
 }
 /* === .logo === */
-
+.logo{
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--bg-color);
+}
 /* === .logo span === */
-
+.logo span{
+  color: var(--main-color);
+}
 /* === .navbar === */
 
 /* === .nav-link, .nav-link:hover === */
