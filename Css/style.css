@@ -103,16 +103,41 @@ header{
   color: var(--main-color);
 }
 /* === .navbar === */
-
+.navbar{
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
 /* === .nav-link, .nav-link:hover === */
-
+.nav-link{
+  font-size: 1rem;
+  color: var(--text-alter-color);
+  transition: all 0.4s;
+}
+.nav-link:hover{
+  color: var(--bg-color);
+}
 /* === .nav-icons === */
-
+.nav-icons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 /* === .nav-icons .bx === */
-
+.nav-icons .bx{
+  color: var(--bg-color);
+  font-size: 20px;
+}
 /* === .nav-icons .user-icon, .nav-icons .user-icon:hover === */
-
-
+.nav-icons .user-icon{
+  padding: 7px;
+  background: var(--main-color);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+.nav-icons .user-icon:hover{
+  background: var(--second-color);
+}
 /*=============== MENU-ICON ===============*/
 
 /* === .menu-icon === */
