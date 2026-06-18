@@ -174,15 +174,44 @@ header{
 /*=============== HOME STYLE ===============*/
 
 /* === .home === */
-
+.home{
+  background: #dd4201;
+  min-height: 670px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12rem !important;
+}
 /* === .home-content === */
-
+.home-content{
+  z-index: 1;
+}
 /* === .home-img === */
-
+.home-img{
+  position: relative;
+}
 /* === .home-img img === */
-
+.home-img img{
+  width: 100%;
+}
 /* === .home-img::before === */
-
+.home-img::before{
+  content: "Taycan";
+  width: 100%;
+  font-size: 11rem;
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  position: absolute;
+  text-align: center;
+  top: -80px;
+  color: #ffb18d;
+  z-index: -1;
+  transform: translateX(-60px);
+  transition: all 2.5s ease;
+  animation: FromRight 2.5s ease forwards;
+}
 /* === @keyframes FromRight === */
 
 /* === .input-form === */
