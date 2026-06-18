@@ -213,7 +213,16 @@ header{
   animation: FromRight 2.5s ease forwards;
 }
 /* === @keyframes FromRight === */
-
+@keyframes FromRight {
+  0%{
+    opacity: 0;
+    transform: translatex(-60px);
+  }
+  100%{
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
 /* === .input-form === */
 
 /* === .input-box === */
