@@ -224,15 +224,41 @@ header{
   }
 }
 /* === .input-form === */
-
+.input-form {
+  max-width: 680px;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg-color);
+  padding: 12px;
+  border-radius: 0.5rem;
+}
 /* === .input-box === */
-
+.input-box{
+  flex: 1 1 7rem;
+  display: flex;
+  flex-direction: column;
+}
 /* === .input-box span === */
-
+.input-box span{
+  font-weight: 500;
+}
 /* === .input-box input === */
-
+.input-box input{
+  outline: none;
+  border: none;
+  color: var(--text-alter-color);
+  background: transparent;
+  font-size: 1rem;
+  margin-top: 7px;
+}
 /* === .input-border === */
-
+.input-border{
+  border-left: 1px solid var(--text-alter-color);
+  padding-left: 5px;
+}
 /* === .search-btn, .search-btn:hover === */
 
 
