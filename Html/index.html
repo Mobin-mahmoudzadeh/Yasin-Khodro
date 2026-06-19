@@ -1,472 +1,73 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-  <head>
-    <!-- START meta charset -->
+<head>
     <meta charset="UTF-8" />
-    <!-- END meta charset -->
-
-    <!-- START meta viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- END meta viewport -->
-
-    <!-- START title -->
     <title>یاسین خودرو | اجاره خودرو</title>
-    <!-- END title -->
-
-    <!-- Custom css link -->
-    <!-- START link stylesheet -->
     <link rel="stylesheet" href="../Css/style.css" />
-    <!-- END link stylesheet -->
-
-    <!-- BoxIcons link -->
-    <!-- START link boxicons -->
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
     />
-    <!-- END link boxicons -->
-  </head>
-  <body>
-    <!-- START div.content -->
-     <div class="div content">
-    <!-- #HEADER -->
-    <!-- START header -->
+</head>
+<body>
+<div class="div content">
     <header>
-    <!-- START div.nav.container -->
-     <div class="div nav container">
-    <!-- START a.logo -->
-     <a href="#" class="logo">
-    <!-- text -->
-     یاسین خودرو
-    <!-- START span -->
-    <span>.</span>
-    <!-- END span -->
-     </a>
-    <!-- END a.logo -->
 
-    <!-- START div.navbar -->
-     <div class="navbar">
-    <!-- START a.nav-link#home -->
-     <a href="#home" class="nav-link"> خانه </a>
-    <!-- END a.nav-link -->
+        <div class="div nav container">
 
-    <!-- START a.nav-link#trending -->
-     <a href="#trending" class="nav-link"> محبوب‌ها </a>
-    <!-- END a.nav-link -->
-
-    <!-- START a.nav-link#rentals -->
-     <a href="#rentals" class="nav-link"> خودروها </a>
-    <!-- END a.nav-link -->
-
-    <!-- START a.nav-link#team -->
-      <a href="#team" class="nav-link"> تیم ما </a>
-    <!-- END a.nav-link -->
-
-    <!-- START a.nav-link#reviews -->
-     <a href="#reviews" class="nav-link"> نظرات </a>
-    <!-- END a.nav-link -->
-     </div>
-    <!-- END div.navbar -->
-
-    <!-- START div.nav-icons -->
-     <div class="nav-icons">
-    <!-- START a -->
-     <a href="#">
-    <!-- START i.bx.bx-search -->
-     <i class="bx bx-search"></i>
-    <!-- END i.bx.bx-search -->
-     </a>
-    <!-- END a -->
-
-    <!-- START a -->
-     <a href="#">
-    <!-- START i.bx.bxs-user -->
-     <i class="bx bxs-user user-icon"></i>
-    <!-- END i.bx.bxs-user -->
-     </a>
-    <!-- END a -->
-
-    <!-- START div.menu-icon -->
-     <div class="menu-icon">
-    <!-- START div.line1 -->
-      <div class="line1"></div>
-    <!-- END div.line1 -->
-
-    <!-- START div.line2 -->
-     <div class="line2"></div>
-    <!-- END div.line2 -->
-
-    <!-- START div.line3 -->
-     <div class="line3"></div>
-    <!-- END div.line3 -->
-     </div>
-    <!-- END div.menu-icon -->
-     </div>
-    <!-- END div.nav-icons -->
-     </div>
-    <!-- END div.nav.container -->
+            <a href="#" class="logo">
+                یاسین خودرو
+                <span>.</span>
+            </a>
+            <div class="navbar">
+                <a href="#home" class="nav-link"> خانه </a>
+                <a href="#trending" class="nav-link"> محبوب‌ها </a>
+                <a href="#rentals" class="nav-link"> خودروها </a>
+                <a href="#team" class="nav-link"> تیم ما </a>
+                <a href="#reviews" class="nav-link"> نظرات </a>
+            </div>
+            <div class="nav-icons">
+                <a href="#">
+                    <i class="bx bx-search"></i>
+                </a>
+                <a href="#">
+                    <i class="bx bxs-user user-icon"></i>
+                </a>
+                <div class="menu-icon">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
     </header>
-    <!-- END header -->
-     
-    <!-- HOME -->
-    <!-- START section.home#home -->
-     <section class="home">
-    <!-- START div.home-content.container -->
-     <div class="home-content container">
-    <!-- START div.home-img -->
-    <div class="home-img">
-    <!-- START img -->
-     <img src="../img/home.png" alt="" />
-    <!-- END img -->
-    </div>
-    <!-- END div.home-img -->
+    <section class="home">
+        <div class="home-content container">
+            <div class="home-img">
+                <img src="../img/home.png" alt="" />
+            </div>
+            <form action="/" class="input-form" >
+                <div class="input-box input-border">
+                    <span>موقعیت مکانی</span>
 
-    <!-- START form.input-form -->
-     <form action="/" class="input-form" >   
-    <!-- START div.input-box.input-border -->
-     <div class="input-box input-border">
-    <!-- START span -->
-     <span>موقعیت مکانی</span>    
-    <!-- END span -->
-
-    <!-- START input -->
-     <input type="text" placeholder="جستجوی مکان‌ها">  
-    <!-- END input -->
-    </div>     
-    <!-- END div.input-box.input-border -->
-
-    <!-- START div.input-box.input-border -->
-    <div class="input-box input-border">    
-    <!-- START span -->
-    <span>تاریخ شروع</span>
-    <!-- END span -->
-
-    <!-- START input.persian-date -->
-     <input type="text" class="persian-date" placeholder="1403/01/01">   
-    <!-- END input.persian-date -->
-    </div>
-    <!-- END div.input-box.input-border -->
-
-    <!-- START div.input-box -->
-    <div class="input-box">
-    <!-- START span -->
-    <span>تاریخ بازگشت</span>
-    <!-- END span -->
-
-    <!-- START input.persian-date -->
-     <input type="text" class="persian-date" placeholder="1403/01/05">    
-    <!-- END input.persian-date -->
-    </div>
-    <!-- END div.input-box -->
-
-    <!-- START i.bx.bx-search.search-btn -->
-    <i class="bx bx-search search-btn"></i>
-     <!-- END i.bx.bx-search.search-btn -->
-     </form>
-    <!-- END form.input-form -->
-     </div>
-    <!-- END div.home-content.container -->
+                    <input type="text" placeholder="جستجوی مکان‌ها">
+                </div>
+                <div class="input-box input-border">
+                    <span>تاریخ شروع</span>
+                    <input type="text" class="persian-date" placeholder="1403/01/01">
+                </div>
+                <div class="input-box">
+                    <span>تاریخ بازگشت</span>
+                    <input type="text" class="persian-date" placeholder="1403/01/05">
+                </div>
+                <i class="bx bx-search search-btn"></i>
+            </form>
+        </div>
     </section>
-    <!-- END section.home -->
 
-    <!-- TRENDING -->
-    <!-- START section.trending#trending -->
-
-    <!-- START div.heading -->
-
-    <!-- START h2 -->
-
-    <!-- END h2 -->
-
-    <!-- END div.heading -->
-
-    <!-- START div.trending-content -->
-
-    <!-- START div.trend-box -->
-
-    <!-- START h4 -->
-
-    <!-- END h4 -->
-
-    <!-- START img -->
-    <!-- END img -->
-
-    <!-- START h3 -->
-
-    <!-- END h3 -->
-
-    <!-- START p -->
-
-    <!-- END p -->
-
-    <!-- END div.trend-box -->
-    <!-- END div.trending-content -->
-
-    <!-- END section.trending -->
-
-    <!-- RENTALA -->
-    <!-- START section.rentals#rentals -->
-
-    <!-- START div.heading -->
-
-    <!-- START h2 -->
-
-    <!-- END h2 -->
-
-    <!-- START p -->
-
-    <!-- END p -->
-
-    <!-- END div.heading -->
-
-    <!-- START div.rentals-content -->
-
-    <!-- Box 1 -->
-    <!-- START div.rental-box -->
-
-    <!-- START div.rental-top -->
-
-    <!-- START h3 -->
-
-    <!-- END h3 -->
-
-    <!-- START i.bx.bxs-heart -->
-
-    <!-- END i.bx.bxs-heart -->
-
-    <!-- END div.rental-top -->
-
-    <!-- START img -->
-    <!-- END img -->
-
-    <!-- START h2 -->
-
-    <!-- END h2 -->
-
-    <!-- START h4 -->
-
-    <!-- END h4 -->
-
-    <!-- START div.price-btn -->
-
-    <!-- START p -->
-
-    <!-- START span -->
-
-    <!-- END span -->
-
-    <!-- END p -->
-
-    <!-- START a.rental-btn -->
-
-    <!-- END a.rental-btn -->
-
-    <!-- END div.price-btn -->
-
-    <!-- END div.rental-box -->
-
-    <!-- END div.rentals-content -->
-
-    <!-- END section.rentals -->
-
-    <!-- TEAM -->
-    <!-- START section.team#team -->
-
-    <!-- START div.heading -->
-
-    <!-- START h2 -->
-
-    <!-- END h2 -->
-
-    <!-- END div.heading -->
-
-    <!-- START div.team-content -->
-
-    <!-- START div.team-box -->
-
-    <!-- START img -->
-    <!-- END img -->
-
-    <!-- START h2 -->
-
-    <!-- END h2 -->
-
-    <!-- START span -->
-
-    <!-- END span -->
-
-    <!-- START p -->
-
-    <!-- END p -->
-
-    <!-- END div.team-box -->
-
-    <!-- END div.team-content -->
-
-    <!-- END section.team -->
-
-    <!-- REVIEWS -->
-    <!-- START section.reviews#reviews -->
-
-    <!-- START div.heading -->
-
-    <!-- START h2 -->
-
-    <!-- END h2 -->
-
-    <!-- END div.heading -->
-
-    <!-- START div.reviews-content.container -->
-
-    <!-- START div.t-box -->
-
-    <!-- START div.stars -->
-
-    <!-- START i.bx.bxs-star -->
-
-    <!-- END i.bx.bxs-star -->
-    <!-- START i.bx.bxs-star-half -->
-
-    <!-- END i.bx.bxs-star-half -->
-
-    <!-- END div.stars -->
-
-    <!-- START p -->
-
-    <!-- END p -->
-
-    <!-- START div.profile -->
-
-    <!-- START img -->
-    <!-- END img -->
-
-    <!-- START div.profile-data -->
-
-    <!-- START h3 -->
-
-    <!-- END h3 -->
-
-    <!-- START span -->
-
-    <!-- END span -->
-
-    <!-- END div.profile-data -->
-
-    <!-- END div.profile -->
-
-    <!-- END div.t-box -->
-
-    <!-- END div.reviews-content.container -->
-
-    <!-- END section.reviews -->
-
-    <!-- NEWSLETTER -->
-    <!-- START section.newsletter#newsletter -->
-
-    <!-- START h2 -->
-    <!-- END h2 -->
-
-    <!-- START p -->
-    <!-- END p -->
-
-    <!-- START form -->
-
-    <!-- START input.email -->
-
-    <!-- END input.email -->
-
-    <!-- START input.s-btn -->
-    <!-- END input.s-btn -->
-
-    <!-- END form -->
-
-    <!-- END section.newsletter -->
-
-    <!-- FOOTER -->
-    <!-- START div.footer -->
-
-    <!-- START div.footer-content.container -->
-
-    <!-- START div.footer-box -->
-
-    <!-- START a.logo -->
-    <!-- END a.logo -->
-
-    <!-- START p -->
-    <!-- END p -->
-
-    <!-- START div.social -->
-    <!-- START a -->
-    <!-- START i.bx.bxl-pinterest -->
-
-    <!-- END i.bx.bxl-pinterest -->
-
-    <!-- END a -->
-
-    <!-- END div.social -->
-
-    <!-- END div.footer-box -->
-
-    <!-- START div.footer-box -->
-
-    <!-- START h3 -->
-    <!-- END h3 -->
-    <!-- START p -->
-    <!-- START span -->
-    <!-- END span -->
-    <!-- text -->
-    <!-- END p -->
-
-    <!-- END div.footer-box -->
-
-    <!-- START div.footer-box -->
-
-    <!-- START h3 -->
-
-    <!-- END h3 -->
-
-    <!-- START a -->
-
-    <!-- END a -->
-
-    <!-- END div.footer-box -->
-
-    <!-- START div.footer-box -->
-
-    <!-- START h3 -->
-
-    <!-- END h3 -->
-
-    <!-- START p -->
-
-    <!-- END p -->
-
-    <!-- START p -->
-    <!-- END p -->
-
-    <!-- START p -->
-
-    <!-- END p -->
-
-    <!-- END div.footer-box -->
-
-    <!-- END div.footer-content.container -->
-
-    <!-- START p.copyright -->
-    <!-- END p.copyright -->
-
-    <!-- END div.footer -->
-     </div>
-    <!-- END div.content -->
-
-    <!-- Scroll Reveal Js -->
-    <!-- START script scrollreveal -->
-    <script src=""></script>
-    <!-- END script scrollreveal -->
-
-    <!-- Custom js link -->
-    <!-- START script -->
-    <script src=""></script>
-    <!-- END script -->
-  </body>
+</div>
+<script src=""></script>
+<script src=""></script>
+</body>
 </html>
