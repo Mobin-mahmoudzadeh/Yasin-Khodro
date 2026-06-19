@@ -276,21 +276,61 @@ header{
 /*=============== TRENDING STYLE ===============*/
 
 /* === .heading === */
-
+.heading{
+  margin-bottom: 2.2rem;
+}
 /* === .heading h2 === */
-
+.heading h2{
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
 /* === .trending-content === */
-
+.trending-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 1.5rem;
+  margin: 5rem;
+}
 /* === .trend-box, .trend-box:hover === */
-
+.trend-box{
+  padding: 15px;
+  border-radius: 10px;
+  background: var(--container-color);
+  transition: all 0.5s ease;
+  border: 2px solid transparent;
+}
+.trend-box:hover{
+  background: #fff;
+  border-color: var(--container-color);
+}
 /* === .trend-box h4, .trend-box:hover h4 === */
-
+.trend-box h4 {
+  display: inline-block;
+  background: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+.trend-box:hover h4{
+  background: #eeeff2;
+}
 /* === .trend-box img === */
-
+.trend-box img{
+  margin: 1.4rem 0 1rem;
+}
 /* === .trend-box h3 === */
-
+.trend-box h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
 /* === .trend-box p === */
-
+.trend-box p{
+  font-size: 1rem;
+  margin-top: 7px;
+  color:var(--text-alter-color);
+}
 
 /*=============== RENTALS STYLE ===============*/
 
