@@ -335,9 +335,16 @@ header{
 /*=============== RENTALS STYLE ===============*/
 
 /* === .rentals .heading === */
-
+.rentals .heading{
+  text-align: center;
+}
 /* === .heading p === */
-
+.heading p{
+  max-width: 550px;
+  width: 100%;
+  font-size: 0.9rem;
+  margin: 1rem auto;
+}
 /* === .rentals-content === */
 
 /* === .rental-box, .rental-box:hover === */
