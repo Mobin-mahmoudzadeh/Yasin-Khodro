@@ -346,30 +346,96 @@ header{
   margin: 1rem auto;
 }
 /* === .rentals-content === */
-
+.rentals-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 1.5rem;
+  
+}
 /* === .rental-box, .rental-box:hover === */
-
+.rental-box{
+  background: var(--container-color);
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.rental-box:hover{
+  transform: translateY(-10px);
+}
 /* === .rental-top === */
-
-/* === .rental-top h3 === */
-
+.rental-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  /* === .rental-top h3 === */
+.rental-top h3{
+  display: inline-block;
+  background: #fff;
+  font-size: 0.8rem;
+  padding: 4px 7px;
+  border-radius: 4px;
+  font-weight: 600;
+}
 /* === .rental-top .bx, .rental-top .bx:hover === */
-
+.rental-top .bx{
+  font-size: 20px;
+  color: var(--text-alter-color);
+  cursor: pointer;
+}
 /* === .rental-box img === */
-
+.rental-box img{
+  margin: 1.8rem 0 1rem;
+  height: 74px;
+  object-fit: contain;
+  object-position: center;
+  transition: all 0.4s ;
+}
+.rental-box:hover img{
+  transform: scale(1.1);
+}
 /* === .rental-box h2 === */
-
+.rental-box h2{
+  font-size: 1.4rem;
+  font-weight: 500;
+}
 /* === .rental-box h4 === */
-
+.rental-box h4{
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-alter-color);
+  margin-top: 5px;
+}
 /* === .price-btn === */
-
+.price-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  color: var(--main-color);
+}
 /* === .price-btn p === */
-
+.price-btn p{
+  font-size: 1rem;
+  font-weight: bold;
+}
 /* === .price-btn p span === */
-
+.price-btn p span{
+  color: var(--text-alter-color);
+  margin-right: 0.5rem;
+}
 /* === .rental-btn, .rental-btn:hover === */
-
-
+.rental-btn{
+  color: var(--bg-color);
+  background: var(--text-color);
+  padding: 7px 10px ;
+  font-size: 0.98rem;
+  border-radius: 4px;
+  transition: all 0.4s;
+}
+.rental-btn:hover{
+  background: var(--main-color);
+}
 /*=============== TEAM STYLE ===============*/
 
 /* === .team-content === */
