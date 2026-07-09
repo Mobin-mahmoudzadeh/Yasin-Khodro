@@ -473,21 +473,52 @@ header{
 /*=============== REVIEWS STYLE ===============*/
 
 /* === .reviews-content === */
-
+.reviews-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
 /* === .t-box === */
-
+.t-box{
+  background: var(--container-color);
+  padding: 30px;
+  border-radius: 10px;
+}
 /* === .t-box .stars === */
-
+.t-box .stars{
+  font-size: 20px;
+  color: var(--main-color);
+}
 /* === .t-box p === */
-
+.t-box p{
+  font-size: 1rem;
+  margin: 10px 0; 
+}
 /* === .profile === */
-
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 /* === .profile img === */
-
+.profile img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 /* === .profile-data h3 === */
-
+.profile-data h3{
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 500;
+}
 /* === .profile-data span === */
-
+.profile-data span{
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--text-alter-color);
+}
 
 /*=============== NEWSLETTER STYLE ===============*/
 
