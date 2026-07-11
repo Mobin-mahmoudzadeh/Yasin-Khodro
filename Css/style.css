@@ -623,15 +623,32 @@ header{
   background: var(--bg-color);
 }
 /* === .footer-box h3 === */
-
+.footer-box h3{
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--bg-color);
+  margin-bottom: 1rem;
+}
 /* === .footer-box p === */
-
+.footer-box p{
+  margin-bottom: 8px;
+}
 /* === .footer-box p span === */
-
+.footer-box p span{
+  display: inline-block;
+  width: 60px;
+}
 /* === .footer-box a === */
-
+.footer-box a{
+  color: var(--bg-color);
+  margin-bottom: 10px;
+}
 /* === .copyright === */
-
+.copyright{
+  padding: 30px;
+  color: var(--bg-color);
+  text-align: center;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
