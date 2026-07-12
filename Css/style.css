@@ -667,6 +667,29 @@ header{
 /* For medium devices */
 
 /* === @media (max-width: 970px) === */
+@media (max-width: 970px){
+  /* === section === */
+  section{
+    padding: 2rem 0;
+  }
+  /* === .home-img::before === */
+  .home-img::before{
+    font-size: 8rem;
+    top: -60px;
+  }
+  
+}
+/* === @media (max-width: 880px) === */
+
+/* === .nav === */
+
+/* === .logo === */
+
+/* === .home === */
+
+/* === .home-img::before === */
+
+/* === .footer-content === */
 
 /* === section === */
 
