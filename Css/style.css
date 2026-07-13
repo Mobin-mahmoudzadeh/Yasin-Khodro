@@ -811,5 +811,11 @@ header{
 
 
 /* === @media (max-width: 380px) === */
-
+@media (max-width: 380px){
 /* === .home-img::before === */ 
+.home-img::before{
+  font-size: 3.5rem;
+  top: -32px;
+  letter-spacing: 0.8rem;
+}
+}
