@@ -770,20 +770,44 @@ header{
 
 
 /* === @media (max-width: 477px) === */
-
+@media (max-width: 477px){
+  
 /* === .home-img === */
-
+.home-img{
+  width: 95%;
+  margin: auto;
+}
 /* === .home-img::before === */
-
+.home-img::before{
+  font-size: 4rem;
+  top: -32px;
+  letter-spacing: 1rem;
+}
 /* === .input-form === */
-
+.input-form{
+  flex-direction: column;
+  align-items: normal;
+}
 /* === .input-box === */
-
+.input-box{
+  flex: none;
+}
 /* === .input-border === */
-
+.input-border{
+  border-right: none;
+  padding: 0 0 10px;
+  border-bottom: 1px solid var(--text-alter-color);
+}
 /* === .heading h2 === */
-
+.heading h2{
+  font-size: 2rem;
+}
 /* === .reviews-content, .footer-content === */
+.reviews-content, 
+.footer-content{
+  grid-template-columns: 1fr;
+}
+}
 
 
 /* === @media (max-width: 380px) === */
