@@ -704,7 +704,35 @@ header{
   .footer-content{
     grid-template-columns: repeat(2, 1fr);
   }
-  
+/* === .menu-icon === */
+.menu-icon{
+  display: flex;
+}
+/* === .navbar === */
+.navbar{
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90vw;
+  background: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-radius: 1rem;
+  clip-path: polygon(0 0, 100% 0, 100% 0 , 0 0);
+  transition: all 0.5s;
+}
+/* === .nav-link === */
+.nav-link{
+  display: block;
+  margin: 1rem 0;
+}
+/* === .open-menu === */
+  .open-menu{
+    clip-path: polygon(0 0 , 100% 0 , 100% 100%, 0% 100%);
+  }
 }
 
 /* For small devices */
@@ -714,14 +742,6 @@ header{
 /* === header === */
 
 /* === .nav-icons .bx === */
-
-/* === .menu-icon === */
-
-/* === .navbar === */
-
-/* === .nav-link === */
-
-/* === .open-menu === */
 
 /* === .home === */
 
